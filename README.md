@@ -2,7 +2,18 @@
 
 Hands-on material on constraint-based metabolic modelling (COBRA) for
 **Computational Systems Biology** (42589), Master's in Bioinformatics, ETSE,
-Universitat de Valencia. Session 10.
+Universitat de Valencia. **Session 10**.
+
+## The three practical sessions
+
+| Session | Topic | Repository |
+|---|---|---|
+| S8 | Boolean modelling of signalling networks | [CSB_signalling](https://github.com/ArnauMontagud/CSB_signalling) |
+| S9 | Cell-line specific models from omics data (PROFILE) | [CSB_personalisation](https://github.com/ArnauMontagud/CSB_personalisation) |
+| **S10** | Constraint-based metabolic modelling and FBA | [CSB_metabolic](https://github.com/ArnauMontagud/CSB_metabolic) |
+
+All three are listed with their launch badges at
+[CSB_course_UV](https://github.com/ArnauMontagud/CSB_course_UV).
 
 ## Run it in your browser
 
