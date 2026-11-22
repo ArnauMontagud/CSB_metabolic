@@ -1,11 +1,14 @@
 # Conda environment for the CSB metabolic modelling practical (session 10).
 #
-# Verified on 2026-10-28: environment builds clean, iJO1366 loads in 1.7 s,
-# FBA runs in 0.15 s, 50 single gene knock-outs in 0.2 s, peak memory 303 MB.
-# Comfortably inside the Binder limits.
+# Verified on 2026-11-22 with the rebuilt notebook, on Linux:
+#   environment solves and builds clean
+#   iJO1366 (bundled with COBRApy, no download) loads in 2.2 s
+#   FBA runs in 0.15 s, the two genome-wide single_gene_deletion runs take 6.4 s each
+#   the whole solution notebook runs end to end in 27 s, 0 errors, 2 figures
 #
-# Replaces requirements.txt (cobra, swiglpk), which left the python version and
-# the solver to chance.
+# seaborn and ipywidgets were removed on 2026-11-22: the notebook was executed with
+# both blocked at import time and ran unchanged. Put ipywidgets back if a future
+# version of the notebook uses interactive widgets.
 
 name: CSB
 
@@ -20,8 +23,6 @@ dependencies:
   - jupyterlab=4.6.4
   - notebook=7.6.3
   - ipykernel=7.4.0
-  - ipywidgets=8.1.9
   - numpy=2.5.4
   - pandas=2.3.3
   - matplotlib=3.11.2
-  - seaborn=0.13.2

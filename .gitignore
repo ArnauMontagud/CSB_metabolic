@@ -1,4 +1,6 @@
 out/*.json
 out/*.tsv
+out/*.sbml
+*SOLUTION*
 CBM_tutorial_solution*
 .ipynb_checkpoints/*
